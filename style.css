@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  border: 2px solid #000;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 1000px;
+  height: 500px;
+  background-color: #fff;
+}
+
+.countdown-section,
+.info-section {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.me {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.iitk {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.countdown-section {
+  flex: 1;
+  border-right: 2px solid #000;
+  text-align: center;
+}
+
+.countdown-top,
+.countdown-bottom {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+}
+
+.countdown-bottom {
+  border-top: 2px solid #000; 
+}
+
+
+.countdown-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+#preview-btn {
+  padding: 5px 20px;
+  font-size: 16px;
+  margin-top: 30px;
+  
+  
+  cursor: pointer;
+}
+
+.creative-area {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.info-section {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.picture-area {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.info-text h3 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.info-text p {
+  line-height: 1.5;
+}
